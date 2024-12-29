@@ -58,13 +58,11 @@ def print_binary(n):
 
 
 if __name__ == "__main__":
-    """
     orders = ["pizza", "samosa", "pasta", "fries", "burger"]
     # multithreading
     t1 = threading.Thread(target=place_order, args=(orders,))
     t2 = threading.Thread(target=serve_order)
     t1.start()
     t2.start()
-    """
 
-    print_binary(10)
+    # print_binary(10)
